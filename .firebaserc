@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pruebaangular-c864c": {
+      "hosting": {
+        "pruebaAng": [
+          "pruebaangular-c864c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pruebaangular-c864c"
+  }
+}

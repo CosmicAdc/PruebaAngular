@@ -1,0 +1,24 @@
+<p>listar works!</p>
+<br>
+<br>
+<h1>Lista de Personas</h1>
+
+<table class="styled-table">
+<tr> 
+    <th>Cedula</th>
+    <th>Nombre</th>
+    <th>Fecha Nacimiento</th>
+    <th>Cargas Familiares</th>
+</tr>
+
+<tr *ngFor="let p of personas |async"> 
+    <th>{{p.cedula}}</th>
+    <th>{{p.nombre}}</th>
+    <th>{{p.Fecha}}</th>
+    <th>{{p.Carga}}</th>
+  
+</tr> 
+
+
+
+</table>
